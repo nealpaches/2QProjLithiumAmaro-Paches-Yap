@@ -79,16 +79,9 @@ nav a:active  {
     bottom: -20px;
     margin: 0;
 }
-#sdid1 .weakgovernment {
-    overflow: hidden;
+#sdid1 article.weakgovernment {
+    overflow: auto;
 }
-
-#sdid1 .weakgovernment img {
-    float: left;
-    margin-right: 20px;
-    width: 50%;
-}
-
 section p {
     font-size: 20px;
     text-align: justify;
@@ -127,7 +120,10 @@ article {
     font-size: 75px; 
     text-decoration-line: underline;
 }
-
+aside{
+    width: 600px;
+    float: right;
+}
 footer, footer a {
     text-align: right;
     line-height: 10px;
