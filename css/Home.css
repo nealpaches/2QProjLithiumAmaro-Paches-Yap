@@ -53,7 +53,9 @@ aside#side1{
     margin-right: 50px;
 }
 figcaption{
+    margin-top: 20px;
     width: 500px;
+    line-height: 20px;
 }
 aside#side2{
     width: 500px;
