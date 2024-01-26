@@ -68,54 +68,33 @@ nav a:active  {
     color: white;
 }
 
-section p {
-    font-size: 20px;
-    text-align: justify;
-    width: 200px;
-    margin-right: 20px;
-    float: left;
-    text-align: justify;
-}
-.entertainment{
-    height: 0px;
-}
-
 section, article {
-    max-width: 800px;
-    margin: 20px auto;
     background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-size: 30px;
 }
 
-img {
+.image1, .image2, .image3 {
+    float: left;
+    margin-right: 20px;
     max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .entertainment, .breakup, .taylor {
-    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
 }
 
 p {
     text-align: justify;
-    line-height: 1.5;
-}
-
-article p {
-    margin-top: 50px;
-    padding: 25px; 
-    top: -100px;
-    bottom: 40px;
-    text-align: justify;
-    overflow: auto;
-}
-
-.entertainment {
-    top: 100px;
-    bottom: 40px;
+    margin: 0;
 }
 
 header h1#center{
@@ -134,18 +113,9 @@ header h1#center{
     font-size: 75px; 
     text-decoration-line: underline;
 }
-.image1 {
-    float: right;
-    margin-left: 20px;
-    width: 500px;
-    height: 500px;
-    top: -1000px;
-    bottom: 100px;
-}
 
 h1 {
     text-align: center;
-    padding: -20px;
 }
 
 footer, footer a {
