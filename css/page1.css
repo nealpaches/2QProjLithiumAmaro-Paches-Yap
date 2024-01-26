@@ -79,73 +79,73 @@ nav a:active  {
     bottom: -20px;
     margin: 0;
 }
-#sdid1 .weakgovernment {
-    overflow: hidden;
-}
-
-#sdid1 .weakgovernment img {
-    float: left;
-    margin-right: 20px;
-    width: 50%;
-}
-
 section p {
     font-size: 20px;
     text-align: justify;
     width: 50%;
     margin-right: 20px;
-    float: left;
+    float: right;
     text-align: justify;
     overflow: hidden;
+    position: relative;
+    right: 150px;
 }
-
-main {
-    max-width: 1200px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-}
-
-#sdid1 {
+main{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     margin: 20px;
-    padding: 20px;
-    background-color: #fff;
 }
 
-.weakgovernment {
-    flex: 1;
-    box-sizing: border-box;
-    padding: 20px;
-}
-
-.image1 {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 8px;
+article.weakgovernment p{
     margin-bottom: 20px;
+    padding: 20px;
+    width: 800px;
+    float: left;
+    position: relative;
+    right: 340px;
 }
-
-#sdid1 {
-    margin: 0;
+.confidential-funds{
+    width: 1750px;
+}
+.confidential-funds p {
     text-align: justify;
 }
 
-
-article {
-    padding: 15px;
-    margin: 0;
-    text-align: justify;
-    font-size: 20px;
+.weakgovernment img {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    left: 300px;
+    bottom: 450px;
 }
-
+.side2 figcaption{
+    width: 600px;
+    position: relative;
+    left: 460px;
+    border: 1px solid black;
+}
+.side1 figcaption{
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+.side1 img{
+    float: left;
+    width: 500px;
+    height: 375px;
+    position: relative;
+    left: 100px;
+}
 #center {
     text-align: center;
     font-size: 75px; 
     text-decoration-line: underline;
 }
-
+.image1{
+    width: 600px;
+    float: right;
+}
 footer, footer a {
     text-align: right;
     line-height: 10px;
