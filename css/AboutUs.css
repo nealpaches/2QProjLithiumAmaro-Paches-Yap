@@ -112,21 +112,21 @@ footer {
 }
 .Twitter {
     margin-top: 20px; 
-    background: url("../public/images/icon.jpeg") no-repeat -1083px -293px;
+    background: url("../images/icon.jpeg") no-repeat -1083px -293px;
 	width: 191px;
 	height: 193px;
 }
 
 .Facebook {
     margin-top: 20px;
-    background: url("../public/images/icon.jpeg") no-repeat -656px -294px;
+    background: url("../images/icon.jpeg") no-repeat -656px -294px;
 	width: 192px;
 	height: 196px;
 }
 .Gmail {
     margin-top: 20px;
     margin-left: 20px; 
-    background: url("../public/images/icon.jpeg") no-repeat -29px -328px;
+    background: url("../images/icon.jpeg") no-repeat -29px -328px;
 	width: 155px;
 	height: 157px;
 }
