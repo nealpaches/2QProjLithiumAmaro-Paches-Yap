@@ -67,6 +67,7 @@ nav a:hover {
 nav a:active  {
     color: white;
 }
+
 #header h1#center{
     text-align: left;
     position: relative;
@@ -78,6 +79,48 @@ nav a:active  {
     bottom: -20px;
     margin: 0;
 }
+#sdid1 .weakgovernment {
+    overflow: hidden;
+}
+
+#sdid1 .weakgovernment img {
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+}
+
+section p {
+    font-size: 20px;
+    text-align: justify;
+    width: 50%;
+    margin-right: 20px;
+    float: left;
+    text-align: justify;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.confidential-funds p {
+    text-align: justify;
+}
+
+.weakgovernment img {
+    float: left;
+    margin-right: 20px;
+}
+
 
 #center {
     text-align: center;
