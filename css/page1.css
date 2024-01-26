@@ -67,6 +67,7 @@ nav a:hover {
 nav a:active  {
     color: white;
 }
+
 #header h1#center{
     text-align: left;
     position: relative;
@@ -78,6 +79,27 @@ nav a:active  {
     bottom: -20px;
     margin: 0;
 }
+#sdid1 .weakgovernment {
+    overflow: hidden;
+}
+
+#sdid1 .weakgovernment img {
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+}
+
+section p {
+    font-size: 20px;
+    text-align: justify;
+    width: 50%;
+    margin-right: 20px;
+    float: left;
+    text-align: justify;
+    border-bottom: 1px dashed black;
+    overflow: hidden;
+}
+
 
 #center {
     text-align: center;
@@ -95,14 +117,4 @@ footer, footer a {
 }
 footer {
     font-size: 20px;
-}
-
-section p {
-    font-size: 20px;
-    text-align: justify;
-    width: 200px;
-    margin-right: 20px;
-    float: left;
-    text-align: justify;
-    border-bottom: 1px dashed black;
 }
