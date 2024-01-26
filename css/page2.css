@@ -75,19 +75,42 @@ section p {
     margin-right: 20px;
     float: left;
     text-align: justify;
-    border-bottom: 1px dashed black;
 }
 .entertainment{
     height: 0px;
 }
 
+section, article {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.entertainment, .breakup, .taylor {
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
 article p {
     margin-top: 50px;
     padding: 25px; 
-    overflow: auto;
     top: -100px;
     bottom: 40px;
     text-align: justify;
+    overflow: auto;
 }
 
 .entertainment {
@@ -118,6 +141,11 @@ header h1#center{
     height: 500px;
     top: -1000px;
     bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+    padding: -20px;
 }
 
 footer, footer a {

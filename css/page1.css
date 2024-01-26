@@ -96,8 +96,29 @@ section p {
     margin-right: 20px;
     float: left;
     text-align: justify;
-    border-bottom: 1px dashed black;
     overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.confidential-funds p {
+    text-align: justify;
+}
+
+.weakgovernment img {
+    float: left;
+    margin-right: 20px;
 }
 
 
