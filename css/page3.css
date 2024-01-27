@@ -107,6 +107,12 @@ article {
     font-size: 20px;
     text-align: justify;
 }
+p#clear{
+    width: 615px;
+    float: right;
+    position: relative;
+    bottom: 30px;
+}
 article h1 {
     text-align: center;
 }
