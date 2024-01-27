@@ -8,7 +8,7 @@ header img {
     margin-top: -200px;
     margin-bottom: -350px;
 }
-header ul li, footer ul li {
+header ul li {
     list-style-type: none;
     display: inline;
     padding-left: 37.5px;
@@ -43,11 +43,6 @@ header a {
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-}
-footer a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 30px;
 }
 
 nav a:link {
@@ -88,7 +83,6 @@ nav a:active  {
 }
 .Sam, .Neal, .Elijah {
     margin-top: 50px;
-    padding: 25px; 
     overflow: auto;
 }
 p {
@@ -96,37 +90,69 @@ p {
     font-style: italic;
     text-align: justify;
 }
-footer, footer a {
-    text-align: right;
-    line-height: 10px;
-    color: black;
-    margin-bottom: 50px; 
-    margin-top: 200px; 
-    margin-right: 25px; 
-}
 footer {
     font-size: 20px;
+    border-top: 10px solid black; 
+    margin-top: 200px; 
 }
-.Socials h1 {
+footer h3 {
+    text-align: center;
     font-style: italic;
+    color: grey;
 }
-.Twitter {
-    margin-top: 20px; 
-    background: url("../images/icon.jpeg") no-repeat -1083px -293px;
-	width: 191px;
-	height: 193px;
+.backtotop, .backtotop a {
+    text-align: right;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 50px; 
+    margin-top: 2px; 
+    margin-right: 25px; 
+    list-style-type: none;
+}
+.backtotop a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+.backtotop a:hover {
+    text-decoration: underline;
+}
+.social-media-icons {
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: bottom;
+    color: darkgray;
+}
+.social-media-icons li {
+    display: inline-block;
+}
+.social-media-icons a {
+    display: block;
+    transition: all 500ms ease-out;
 }
 
-.Facebook {
-    margin-top: 20px;
-    background: url("../images/icon.jpeg") no-repeat -656px -294px;
-	width: 192px;
-	height: 196px;
+.social-media-icons a:hover {
+    filter: invert(100%) opacity(75%);
 }
-.Gmail {
-    margin-top: 20px;
-    margin-left: 20px; 
-    background: url("../images/icon.jpeg") no-repeat -29px -328px;
-	width: 155px;
-	height: 157px;
+.social-media-icons a:active {
+    filter: blur(2px) invert(100%) opacity(75%);
+}
+
+.gmail {
+    background: url("../images/social-icons.png") no-repeat -106px -59px;
+	width: 51px;
+	height: 56px;
+}
+
+.facebook {
+    background: url("../images/social-icons.png") no-repeat -53px 0;
+	width: 51px;
+	height: 56px;
+}
+
+.twitter {
+    background: url("../images/social-icons.png") no-repeat 0 0;
+	width: 51px;
+	height: 56px;
 }
