@@ -76,7 +76,7 @@ section, article {
     font-size: 30px;
 }
 
-.image1, .image2, .image3 {
+.image1, .image3 {
     float: left;
     margin-right: 20px;
     max-width: 100%;
@@ -107,6 +107,7 @@ header h1#center{
     left: 1200px;
     bottom: -20px;
     margin: 0;
+    color: black;
 }
 #center {
     text-align: center;
