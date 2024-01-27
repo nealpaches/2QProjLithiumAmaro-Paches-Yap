@@ -79,57 +79,77 @@ nav a:active  {
     bottom: -20px;
     margin: 0;
 }
+
 section p {
     font-size: 20px;
     text-align: justify;
     width: 50%;
     margin-right: 20px;
-    float: right;
+    float: left;
     text-align: justify;
     overflow: hidden;
-    position: relative;
-    right: 150px;
 }
-section, article {
-    display: flex;
-    flex-wrap: wrap;
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
     background-color: #fff;
-    margin: 20px 0;
+    padding: 20px;
+}
+
+section {
+    padding: 25px;
+}
+
+article {
+    margin-top: 50px; 
+    padding: 30px;
+    font-size: 18px; 
+    text-align: center;
+}
+
+#sdid1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-size: 18px;
 }
 
-.image1, .image3 {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
+
+.weakgovernment {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
-.image1 {
+.image1, .image2 {
+    width: 50%;
     max-width: 50%;
-    margin-right: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    right: 50px;
 }
 
-h1, p {
+#sdid1 p {
     margin: 0;
-    width: 100%;
+    text-align: left;
+    width: 400px;
 }
 
-figcaption {
+.fig1, .fig2 {
     font-size: 12px;
     color: #666;
-    margin-top: 10px;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #center {
     text-align: center;
     font-size: 75px; 
     text-decoration-line: underline;
-}
-.image1{
-    width: 600px;
-    float: right;
 }
 
 footer, footer a {
