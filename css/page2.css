@@ -97,6 +97,11 @@ p {
     margin: 0;
 }
 
+.imgsource{
+    font-style: italic;
+    width: 718px;
+}
+
 header h1#center{
     text-align: left;
     position: relative;

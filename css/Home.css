@@ -51,6 +51,9 @@ aside#side1{
     right: 150px;
     margin-right: 50px;
 }
+aside figcaption{
+    font-style: italic;
+}
 figure#fig1 figcaption{
     width: 500px;
     line-height: 20px;
