@@ -65,7 +65,8 @@ nav a:active  {
 #center {
     text-align: center;
     font-size: 75px; 
-    text-decoration-line: underline;
+    transform: skew(10deg);
+    border: 7px groove black; 
 }
 .image1{
     float: right;
@@ -73,6 +74,7 @@ nav a:active  {
     margin-left: 20px;
     width: 250px;
     height: 250px;
+    box-shadow: 2px 2px 4px 4px grey;
 }
 .image2 {
     float: left;
@@ -80,10 +82,15 @@ nav a:active  {
     margin-right: 20px;
     width: 250px;
     height: 250px;
+    box-shadow: 2px 2px 4px 4px grey;
 }
 .Sam, .Neal, .Elijah {
-    margin-top: 50px;
-    overflow: auto;
+    margin-top: 80px;
+}
+.Sam h1, .Neal h1, .Elijah h1 {
+    color: white;
+    text-shadow: 1px 1px 2px darkgray, 0 0 25px grey, 0 0 5px black;
+    
 }
 p {
     font-size: 20px;
@@ -155,4 +162,15 @@ footer h3 {
     background: url("../images/social-icons.png") no-repeat 0 0;
 	width: 51px;
 	height: 56px;
+}
+img.image1, img.image2 {
+    animation: vertical 2s ease-in-out infinite both;
+}
+
+@keyframes vertical {
+    0% { transform:translateY(0); }
+
+    50% { transform:translateY(-20px); }
+
+    100% { transform:translateY(0); }
 }
