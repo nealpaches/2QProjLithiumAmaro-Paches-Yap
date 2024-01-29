@@ -41,12 +41,20 @@ article#art2{
     bottom: -200px;
 }
 
-#health{
-    width: 500px;
-    height: 250px;
-    display: block;
-    margin-top: 300px;
-    margin-bottom: 300px;
+.health {
+    margin-top: 200px;
+    width: 890px;
+    position: absolute;
+}
+
+.health img {
+    float:left;
+    width: 1000px;
+    height: 1000px;
+}
+
+.source {
+    width: 20px;
 }
 
 .fig1 {
