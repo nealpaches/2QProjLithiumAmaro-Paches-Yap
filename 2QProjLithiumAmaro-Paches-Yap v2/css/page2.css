@@ -62,40 +62,6 @@ nav a:active  {
     color: white;
 }
 
-section, article {
-    background-color: #fff;
-    margin: 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    font-size: 30px;
-}
-
-.image1, .image3 {
-    float: left;
-    margin-right: 20px;
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.entertainment, .breakup, .taylor {
-    padding: 20px;
-}
-
-h1 {
-    color: black;
-}
-
-p {
-    text-align: justify;
-    margin: 0;
-}
-
-.imgsource{
-    font-style: italic;
-    width: 718px;
-}
-
 header h1#center{
     text-align: left;
     position: relative;
@@ -118,9 +84,69 @@ h1 {
     text-align: center;
 }
 
+.swift img {
+    margin-left: 20px;
+    float:right;
+    width:500px;
+    height:350px;
+    border-radius: 8px;
+    border: 5px solid black;
+}
+
+.swift p {
+    overflow: auto;
+    padding: 50px;
+    text-align: justify;
+    font-size: 25px;
+}
+.kathniel {
+    margin-top: 100px;
+}
+.kathniel h1 {
+    text-align: center; 
+    font-size: 50px;
+}
+
+.kathniel img{
+    margin-right: 20px;
+    float:left;
+    width:500px;
+    height:350px;
+    border-radius: 8px;
+    border: 5px solid black;
+}
+
+.kathniel p {
+    overflow: auto;
+    padding: 50px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.float h1 {
+    font-size: 50px;
+}
+
+#left {
+    width: 50%; 
+    height: 150px; 
+    float: left; 
+    font-size: 30px;
+    margin: 30px;
+    text-align: justify;;
+}
+
+#right {
+    margin-left: 50%; 
+    margin: 30px;
+    height: 150px;
+    text-align: justify;
+    font-size: 30px;
+}
+
 footer {
     border-top: 10px solid black; 
-    margin-top: 100px; 
+    margin-top: 800px; 
 }
 footer h3 {
     text-align: center;
