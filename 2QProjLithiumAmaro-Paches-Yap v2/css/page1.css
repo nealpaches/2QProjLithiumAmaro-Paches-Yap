@@ -97,15 +97,18 @@ section p {
     height:250px;
     border-radius: 8px;
     border: 5px solid black;
+    margin-right: 20px;
 }
 
 .wg p {
     overflow: auto;
     padding: 50px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
 }
-
+.p2s {
+    margin-top: 50px;
+}
 .confifunds h1 {
     text-align: center; 
     font-size: 50px;
@@ -117,6 +120,7 @@ section p {
     border-radius: 8px;
     border: 5px solid black;
     margin-top: 50px;
+    margin-left: 20px;
 }
 
 .confifunds p {
@@ -127,20 +131,21 @@ section p {
 }
 
 #left {
-    width: 50%; 
-    height: 150px; 
+    width: 30%; 
+    height: 300px; 
     float: left; 
-    font-size: 20px;
+    font-size: 25px;
     margin: 30px;
-    text-align: justify;;
+    text-align: justify;
 }
 
 #right {
-    margin-left: 50%; 
+    width: 30%;
+    float:right;
     margin: 30px;
-    height: 150px;
+    height: 300px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 footer {
