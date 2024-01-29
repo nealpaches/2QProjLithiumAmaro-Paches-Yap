@@ -141,9 +141,9 @@ h1 {
 
 #left {
     width: 50%; 
-    height: 150px; 
+    height: 300px; 
     float: left; 
-    font-size: 30px;
+    font-size: 25px;
     margin: 30px;
     text-align: justify;;
 }
@@ -151,14 +151,15 @@ h1 {
 #right {
     margin-left: 50%; 
     margin: 30px;
-    height: 150px;
+    height: 300px;
     text-align: justify;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 footer {
+    font-size: 20px;
     border-top: 10px solid black; 
-    margin-top: 800px; 
+    margin-top: 50px; 
 }
 footer h3 {
     text-align: center;
@@ -177,7 +178,7 @@ footer h3 {
 .backtotop a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 .backtotop a:hover {
     text-decoration: underline;
