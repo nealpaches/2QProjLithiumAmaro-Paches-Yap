@@ -107,7 +107,7 @@ header h1#center{
 
 #left {
     overflow: auto;
-    width: 1000px;
+    width: 50%;
     float: left;
     text-align: justify;
     font-size: 20px;
@@ -115,7 +115,7 @@ header h1#center{
 
 #right {
     overflow: auto;
-    width: 1000px;
+    width: 50%;
     float: right;
     text-align: justify;
     font-size: 20px;
