@@ -40,9 +40,26 @@ article#art2{
     position: absolute;
     bottom: -200px;
 }
+.poverty {
+    margin-top: 100px;
+}
+#art1 h1 {
+    font-size: 60px;
+}
 
+#art1 p {
+    font-size: 20px;
+}
+
+#art2 h1 {
+    font-size: 60px;
+}
+
+#art2 p {
+    font-size: 20px;
+}
 .fig1 {
-    width: 100px;
+    width: 90px;
 }
 
 #art2 {
