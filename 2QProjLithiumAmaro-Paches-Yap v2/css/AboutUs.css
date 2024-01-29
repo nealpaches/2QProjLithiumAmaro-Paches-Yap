@@ -70,7 +70,7 @@ nav a:active  {
 }
 #header {
     font-size: 75px; 
-    transform: skew(10deg);
+    transform: skew(-10deg);
     border: 7px groove black; 
 }
 .image1{
