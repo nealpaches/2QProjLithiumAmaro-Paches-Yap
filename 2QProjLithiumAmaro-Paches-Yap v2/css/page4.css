@@ -84,6 +84,41 @@ header h1#center{
 .health p {
     overflow: auto;
     padding: 50px;
+    text-align: justify;
+}
+
+.rcy h1 {
+    text-align: center; 
+    font-size: 50px;
+}
+.rcy img{
+    float:right;
+    width:500px;
+    height:250px;
+    border-radius: 8px;
+    border: 5px solid black;
+}
+
+.rcy p {
+    overflow: auto;
+    padding: 50px;
+    text-align: justify;
+}
+
+#left {
+    overflow: auto;
+    width: 1000px;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#right {
+    overflow: auto;
+    width: 1000px;
+    float: right;
+    text-align: justify;
+    font-size: 20px;
 }
 nav a:link {
     color: white;
@@ -106,7 +141,7 @@ nav a:active  {
 footer {
     font-size: 20px;
     border-top: 10px solid black; 
-    margin-top: 150px; 
+    margin-top: 250px; 
 }
 footer h3 {
     text-align: center;
