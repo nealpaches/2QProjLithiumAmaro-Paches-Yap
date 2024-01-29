@@ -127,17 +127,18 @@ section p {
 }
 
 #left {
-    overflow: auto;
-    width: 50%;
-    float: left;
-    text-align: justify;
+    width: 50%; 
+    height: 150px; 
+    float: left; 
     font-size: 20px;
+    margin: 30px;
+    text-align: justify;;
 }
 
 #right {
-    overflow: auto;
-    width: 50%;
-    float: right;
+    margin-left: 50%; 
+    margin: 30px;
+    height: 150px;
     text-align: justify;
     font-size: 20px;
 }
@@ -145,7 +146,7 @@ section p {
 footer {
     font-size: 20px;
     border-top: 10px solid black; 
-    margin-top: 500px; 
+    margin-top: 250px; 
 }
 footer h3 {
     text-align: center;
