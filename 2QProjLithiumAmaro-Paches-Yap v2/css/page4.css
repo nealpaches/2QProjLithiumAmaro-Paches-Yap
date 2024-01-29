@@ -54,6 +54,37 @@ header a {
     font-weight: bold;
     font-size: 25px;
 }
+
+header h1#center{
+    text-align: left;
+    position: relative;
+    width: 80px;
+    height: auto;
+    font-size: 80px;
+    padding: 10px;
+    left: 1200px;
+    bottom: -20px;
+    margin: 0;
+} 
+
+#center {
+    text-align: center;
+    font-size: 75px; 
+    text-decoration-line: underline;
+}
+
+.health img {
+    float:left;
+    width:500px;
+    height:250px;
+    border-radius: 8px;
+    border: 5px solid black;
+}
+
+.health p {
+    overflow: auto;
+    padding: 50px;
+}
 nav a:link {
     color: white;
 }
@@ -75,7 +106,7 @@ nav a:active  {
 footer {
     font-size: 20px;
     border-top: 10px solid black; 
-    margin-top: 100px; 
+    margin-top: 150px; 
 }
 footer h3 {
     text-align: center;
