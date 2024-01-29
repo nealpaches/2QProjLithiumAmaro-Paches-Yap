@@ -93,14 +93,13 @@ nav a:active  {
     
 }
 .usernames {
-   text-decoration: none; 
    font-size: large;
    font-style: italic;
    color: purple;
    font-weight: bold;
 }
 .usernames:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: black; 
 }
 .usernames:active {
